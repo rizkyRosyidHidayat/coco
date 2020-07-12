@@ -1,0 +1,67 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  color: #353535;
+}
+.bg-krem{
+  background-color: #FEF9EE;
+}
+.bg-coklat{
+  background-color: #E0CA86;
+}
+.bg-header{
+  background-color: #353535;
+}
+.text-krem{
+  color: #FEF9EE;
+  transition: all 0.1s ease;
+}
+.text-krem:hover{
+  color: #FEF9EE;
+  box-shadow: 0 0 0 4px #FEF9EE, 0 0 0 6px #353535, 0 0 0 8px #FEF9EE;
+}
+.btn-coklat{
+  background-color: #E0CA86;
+  color: #353535;
+}
+.btn-outline-coklat{
+  border: 2px solid #E0CA86;
+  color: #E0CA86;
+  transition: all 0.2s ease-in-out;
+}
+.btn-outline-coklat:hover{
+  background-color: #E0CA86;
+  color: #353535;
+}
+.produk{
+  background-image: url('../img/garpu.png'), url('../img/kopi.png');
+  background-size: 25%, 30%;
+  background-repeat: no-repeat;
+  background-position-x: right, -50px;
+  background-position-y: top, bottom;
+  height: 155vh;
+}
+.img-produk{
+  width: 60%;
+}
+.btn-produk{
+  margin-right: -20px;
+  margin-bottom: -20px;
+}
+.testimoni{
+  background-image: url('../img/roaster.png');
+  /* background-size: -50px; */
+  background-position-y: bottom;
+  background-position-x: -50px;
+  background-repeat: no-repeat;
+}
+.body-testimoni{
+  height: 350px;
+}
+/* .footer-section{
+  background-image: url('../img/segitiga3.svg');
+  background-size: cover;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+} */
